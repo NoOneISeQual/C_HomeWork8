@@ -35,12 +35,12 @@ void MinSumNumbers(int[,] matrix)
             for (int j = 0; j < matrix.GetLength(1); j++) 
             {
                 minsum = minsum + matrix[i, j];
-            }
                 if (minsum < min)
                 {
                     min = minsum;
                     sum = i;
                 }
+            }
         minsum = 0;
         }
     Console.Write($"{sum + 1} строка \t");
