@@ -43,7 +43,7 @@ void MinSumNumbers(int[,] matrix)
                 }
         minsum = 0;
         }
-    Console.Write($"{sum + 1} строка");
+    Console.Write($"{sum + 1} строка \t");
     Console.WriteLine();
 }
 
